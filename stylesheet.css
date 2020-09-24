@@ -1,5 +1,5 @@
 header {
-    border: rgb(71, 60, 9) inset 6px;
+    border: #cf788b inset 6px;
     text-align: center;
     font-family: "Actor";
     background-image: linear-gradient(to bottom,#cfb478,rgb(71, 60, 9));
@@ -41,16 +41,16 @@ body {
 
 img {
     border-radius: 360px;
-    border: inset 5px rgb(71, 60, 9);
+    border: inset 5px #cf788b;
     object-fit: fill;
     object-position: 20% 1px; 
-    border: 5px solid black;
+    border: 5px inset #cf788b;
     overflow: hidden;
 }
 
 iframe {
     margin-bottom: 50px;
-    border: inset 5px rgb(71, 60, 9); 
+    border: inset 5px #cf788b; 
 }
 
 li {
@@ -64,7 +64,7 @@ li {
 }
 
 .familysection {
-    border: rgb(71, 60, 9) inset 3px;
+    border: #cf788b inset 3px;
     text-align: center;
     font-size: 20px;
     font-family: "Actor";
@@ -77,33 +77,31 @@ li {
 }
 
 .fatherpic {
-    height: 200px;
+    height: 230px;
     width: 150px;
     float: left;
 }
 
 .motherpic {
-    height: 200px;
+    height: 215px;
     width: 150px;
     float: left;
 }
 
 .erikapic {
-    height: 250px;
+    height: 230px;
     width: 150px;
-    float: right;
-    margin-right: 100px;
-    border: dotted #cf788b 10px;
+    float: left;
 }
 
 table {
-    margin: 0px 400px 0px 400px ;
-    border:rgb(71, 60, 9) inset 4px; 
+    border:#cf788b inset 4px; 
     padding: 5px;
 }
 
 th {
     border: rgb(71, 60, 9) solid 1px;
+    background-color: rgb(71, 60, 9);
 }
 
 td {
@@ -111,15 +109,100 @@ td {
 }
 
 footer {
-    border: rgb(71, 60, 9) inset 4px;
+    border: #cf788b inset 4px;
     text-align: center;
     font-family: "Actor";
     background-image: linear-gradient(to bottom,#cfb478,rgb(71, 60, 9));
     color: rgb(209, 199, 164);
     font-size: 20px;
     text-shadow: 1px 1px black; 
+    
 }
 
 .back {
     color: rgb(209, 199, 164);
 }
+
+/*page 2 stuff*/
+
+nav {
+    text-align: right;
+}
+
+.background {
+    float: left;
+    background-image: linear-gradient(to bottom,#8b784e,rgb(71, 60, 9));
+    border: inset #cf788b 6px; 
+    width: 650px;
+    color: rgb(209, 199, 164);
+    font-size: 30px;
+    text-shadow: 1px 1px black; 
+    font-family: "Actor";
+    margin: 10px;
+}
+
+.familybackground {
+    background-image: linear-gradient(to bottom,#8b784e,rgb(71, 60, 9));
+    color: rgb(209, 199, 164);
+    font-size: 30px;
+    text-shadow: 1px 1px black; 
+    font-family: "Actor";
+    padding: 5px;
+    float: right;
+    width: 500px;
+    margin: 10px;
+    border: inset #cf788b 6px;
+}
+
+h3 {
+   color: #cf788b;  
+}
+
+.heartofdarkness {
+    background-image: linear-gradient(to bottom,#8b784e,rgb(71, 60, 9));
+    color: rgb(209, 199, 164);
+    font-size: 30px;
+    text-shadow: 1px 1px black; 
+    font-family: "Actor";
+    padding: 5px;
+    float: right;
+    width: 500px;
+    margin: 10px;
+    border: inset #cf788b 6px;
+}
+
+.secrets {
+    background-image: linear-gradient(to bottom,#8b784e,rgb(71, 60, 9));
+    color: rgb(209, 199, 164);
+    font-size: 30px;
+    text-shadow: 1px 1px black; 
+    font-family: "Actor";
+    padding: 5px;
+    float: right;
+    width: 500px;
+    margin: 10px;
+    border: inset #cf788b 6px;
+}
+
+.importantitems {
+    background-image: linear-gradient(to bottom,#8b784e,rgb(71, 60, 9));
+    color: rgb(209, 199, 164);
+    font-size: 30px;
+    text-shadow: 1px 1px black; 
+    font-family: "Actor";
+    padding: 5px;
+    float: right;
+    width: 500px;
+    margin: 10px;
+    border: inset #cf788b 6px;
+}
+
+.oathofancientsvid {
+    float: right;
+}
+
+
+
+
+
+
