@@ -36,8 +36,6 @@ body {
 }
 
 .mainastorimage {
-    border: rgb(71, 60, 9) 3px inset;
-    background-image: linear-gradient(to bottom right,#cfb478,rgb(71, 60, 9));
     margin: 5px 5px 
 }
 
@@ -72,10 +70,10 @@ li {
     font-family: "Actor";
     padding: 10px;
     margin: 50px;
-    background-image: linear-gradient(to bottom right,#cfb478,rgb(71, 60, 9));
     color: rgb(209, 199, 164);
     text-shadow: 2px 1px black;
     display: inline-block;
+    background-image: linear-gradient(to bottom right,#cfb478,rgb(71, 60, 9));
 }
 
 table {
