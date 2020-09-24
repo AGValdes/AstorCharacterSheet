@@ -76,6 +76,26 @@ li {
     background-image: linear-gradient(to bottom right,#cfb478,rgb(71, 60, 9));
 }
 
+.fatherpic {
+    height: 200px;
+    width: 150px;
+    float: left;
+}
+
+.motherpic {
+    height: 200px;
+    width: 150px;
+    float: left;
+}
+
+.erikapic {
+    height: 250px;
+    width: 150px;
+    float: right;
+    margin-right: 100px;
+    border: dotted #cf788b 10px;
+}
+
 table {
     margin: 0px 400px 0px 400px ;
     border:rgb(71, 60, 9) inset 4px; 
