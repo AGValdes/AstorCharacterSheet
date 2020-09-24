@@ -2,44 +2,54 @@
 <html>
     <head>
     <title>Character Sheet</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
     </head>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
     <body>
         <a name="Top"></a>
-
-        <h1>Astor Qindriel</h1>
-        <h5>Half-Elf, 29, Female</h5>
-         <p><em>"She has a haunted expression, the darkness she has seen only amplifies the light she brings into the lives of those around her"</em></p>
-        <img src="images/astorsketch.jpg" width="450"height="600">
-         <iframe width="750" height="550" src="https://www.youtube.com/embed/Ch5vWBPCrl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-         <hr />
-         <ul>
-            <li><strong>Height:</strong>5'2"</li>
-            <li><strong>Weight:</strong> 140lbs</li>
-            <li><strong>Eyes:</strong> Golden Hazel</li>
-            <li><strong>Hair:</strong>Brown, Long, Curled into ringlets or woven into braids</li>
-            <li><strong>Clothing:</strong>Astor sports several pieces of armor that she has found and collected during her travels, each clearly belonging to a different armor set, but each sharing a similar theme: they are all adorned with some sort of floral decal or ornate filigree, and appear to be hand-painted gold.</li>
-        </ul>
-        <hr />
-        <h4>Top Moral Priorities</h4>
-        <ol>
-            <li><strong>Protection:</strong> She will put herself in danger without question if it is to save her friends or family, even strangers that she finds beauty in.</li>
-            <li><strong>Pacifism:</strong> She will restrain from offensive combat in all situations except for an extreme case where it may be neccisary to save a very close loved one's life.</li>
-            <li><strong>Pursuit of Beauty:</strong>Encourage and protect beauty wherever you can find it.</li>
-            <li><strong>Belief in Love:</strong>Let warm friendship and admiration blossom where love cannot or darest not.</li>
-        </ol>
-        <hr />
-        <h4>Family</h4>
-        <table>
-            <tr><th>Name</th><th>Relation</th><th>Occupation</th></tr>
-            <tr><td>Alistair Qindriel</td><td>Father</td><td>Knight of the Ivory Garrison</td></tr>
-            <tr><td>Ashe Qindriel</td><td>Mother</td><td>Seamstress and Weaver</td></tr>
-            <tr><td>Erika Kindelwood</td><td>Childhood Friend, Lover</td><td>Owned House Keeper</td></tr>
-        </table>
-        <hr />
-        <p>Want to know more?</p>
-        <input type="submit"value="Turn the Page">
-        <br />
-        <a href="#Top"> Back to Top</a>
-
+            <header>
+                <h1>Astor Qindriel</h1>
+                <h5>Half-Elf   | 29 |   Female</h5>
+                <p><em>"She has a haunted expression, the darkness she has seen only amplifies the light she brings into the lives of those around her"</em></p>
+            </header>
+        <section class="mainastorimage">  
+            <img src="astorsketch.jpg"width="425"height="600">
+            <iframe width="750" height="500" src="https://www.youtube.com/embed/Ch5vWBPCrl0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>      
+        <section>
+            <h4>Appearance</h4>
+                <ul>
+                    <li><strong>Height:</strong>5'2"</li>
+                    <li><strong>Weight:</strong> 140lbs</li>
+                    <li><strong>Eyes:</strong> Golden Hazel</li>
+                    <li><strong>Hair:</strong>Brown, Long, Curled into ringlets or woven into braids</li>
+                    <li><strong>Clothing:</strong>Astor sports several pieces of armor that she has found and collected during her travels, each clearly belonging to a different armor set, but each sharing a similar theme: they are all adorned with some sort of floral decal or ornate filigree, and appear to be hand-painted gold.</li>
+                </ul>
+        </section>
+        <section>
+            <h4>Top Moral Priorities</h4>
+            <ol>
+                <li><strong>Protection:</strong> She will put herself in danger without question if it is to save her friends or family, even strangers that she finds beauty in.</li>
+                <li><strong>Pacifism:</strong> She will restrain from offensive combat in all situations except for an extreme case where it may be neccisary to save a very close loved one's life.</li>
+                <li><strong>Pursuit of Beauty:</strong>Encourage and protect beauty wherever you can find it.</li>
+                <li><strong>Belief in Love:</strong>Let warm friendship and admiration blossom where love cannot or darest not.</li>
+            </ol>
+        </section>
+        <section class="familysection">
+            <h4>Family</h4>
+            <table>
+                <tr><th>Name</th><th>Relation</th><th>Occupation</th></tr>
+                <tr><td>Alistair Qindriel</td><td>Father</td><td>Knight of the Ivory Garrison</td></tr>
+                <tr><td>Ashe Qindriel</td><td>Mother</td><td>Seamstress and Weaver</td></tr>
+                <tr><td>Erika Kindelwood</td><td>Childhood Friend, Lover</td><td>Owned House Keeper</td></tr>
+            </table>
+        </section>
+        <footer>
+            <p>Want to know more?</p>
+            <input type="submit"value="Turn the Page">
+            <br />
+            <a class="back" href="#Top"> Back to Top</a>
+        </footer>    
     </body>
 </html>
